@@ -1,4 +1,4 @@
-# Market Segmentation Using Decision Tree for the Finance Sector
+# Market Segmentation 
 
 ## Introduction
 This project focuses on creating a market segmentation model for the finance sector using a Decision Tree classifier. The goal is to classify customers for loan approval by transforming unsupervised data into supervised data through clustering. By leveraging customer features and details, the model can segment the market and assist in making informed loan approval decisions.
@@ -15,8 +15,7 @@ This project focuses on creating a market segmentation model for the finance sec
 9. **One-Hot Encoding**: Encode clusters into the dataset as target variables.
 10. **Training and Testing Data Split**: Divide data into training and testing sets.
 11. **Build Decision Tree Model**: Develop a Decision Tree classifier to segment customers.
-12. **Confusion Matrix**: Evaluate model performance with a confusion matrix.
-13. **Market Segmentation Website Creation**: Deploy a website for real-time customer classification.
+12. **Market Segmentation web application Creation**: Deploy a web application for real-time customer classification.
 
 ## Description
 
@@ -32,13 +31,19 @@ This project focuses on creating a market segmentation model for the finance sec
 - **Task**: Use KDE to show the distribution of variables with continuous curves, highlighting skewness and distribution points.
 - **Outcome**: Visual representation of data distributions, aiding in the identification of multiple distribution points.
 
+<img src=https://github.com/kamaliravi31/Market-Segmentation/blob/main/images/KDE.png>
+
 ### Distribution Plot
 - **Task**: Display data distribution along with histograms to highlight central tendencies and variability.
 - **Outcome**: Clear visualization of data distribution, showing purchase frequency peaks and median central tendency.
 
+ <img src=https://github.com/kamaliravi31/Market-Segmentation/blob/main/images/distribution.png> 
+
 ### Correlation Matrix
 - **Task**: Visualize the correlation between variables to identify positive, negative, or no relationships.
 - **Outcome**: Insight into variable relationships, guiding further analysis and model building.
+
+  <img src=https://github.com/kamaliravi31/Market-Segmentation/blob/main/images/correlation%20matrix.png>
 
 ### Dimensionality Reduction
 - **Task**: Apply PCA to convert the dataset into a 2-dimensional data frame.
@@ -48,13 +53,20 @@ This project focuses on creating a market segmentation model for the finance sec
 - **Task**: Use the Elbow method to determine the optimal number of clusters.
 - **Outcome**: Identification of 4 significant clusters for customer segmentation.
 
+<img src=https://github.com/kamaliravi31/Market-Segmentation/blob/main/images/hyperparameter_tuning.png>
+
+
 ### K-Means Clustering
 - **Task**: Segment the dataset into 4 clusters using the K-means clustering algorithm.
 - **Outcome**: Defined customer segments that can be used as target variables for classification.
 
+  <img src=https://github.com/kamaliravi31/Market-Segmentation/blob/main/images/k-means.png>
+
 ### One-Hot Encoding
 - **Task**: Encode the 4 clusters into the dataset as additional binary variables.
 - **Outcome**: Transformation of the unsupervised dataset into a supervised dataset ready for classification.
+
+  <img src=https://github.com/kamaliravi31/Market-Segmentation/blob/main/images/count.png>
 
 ### Train and Test Split
 - **Task**: Split the data into 80% training data and 20% testing data, with independent variables as X and dependent variables as y.
@@ -68,13 +80,17 @@ This project focuses on creating a market segmentation model for the finance sec
 - **Task**: Evaluate the model using classification reports and accuracy scores.
 - **Outcome**: Achieved an accuracy of 94%, indicating strong model performance.
 
-### Confusion Matrix
-- **Task**: Visualize the confusion matrix using a heat map to understand true positives, false positives, true negatives, and false negatives.
-- **Outcome**: Detailed visualization of model performance, supporting further refinement and validation.
+  <img src=https://github.com/kamaliravi31/Market-Segmentation/blob/main/images/metrics.png>
 
-### Deployment of the Website
+
+
+### Deployment of the Web Application
 - **Task**: Deploy the classification model as a web application for real-time customer classification.
 - **Outcome**: An accessible tool for loan approvers to make informed decisions, with potential use cases in various market segmentation scenarios.
+
+  <img src=https://github.com/kamaliravi31/Market-Segmentation/blob/main/images/web%20app.png>
+
+   <img src=https://github.com/kamaliravi31/Market-Segmentation/blob/main/images/result.png>
 
 ## Conclusion
 This project successfully developed a market segmentation model using a Decision Tree classifier, achieving an accuracy of 94%. The model's deployment as a web application provides a practical tool for loan approval decisions, demonstrating significant potential for broader market segmentation and customer classification applications in the finance sector and beyond.
